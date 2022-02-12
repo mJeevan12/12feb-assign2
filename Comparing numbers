@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+if a==b:
+   print('a is equal')
+if a!=b:
+    if a>b:
+         print('a is bigger than b')
+    elif b>a:
+         print('b is bigger than a')
